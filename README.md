@@ -1,10 +1,13 @@
-# Qiskit Fall Fest 2026 — University of Engineering and Technology (UET), Narowal Campus
+# IBM Qiskit Fall Fest 2026 — 
+***University of Engineering and Technology (UET), Narowal Campus***
 
-Welcome to the official repository for the **Qiskit Fall Fest 2026**, hosted at the **University of Engineering and Technology (UET), Narowal Campus**. 
+Welcome to the official repository for the **Qiskit Fall Fest 2026**. 
 
-This event window runs from **2 to 18 October 2026**.
+Let's get Qiskitting from **2 to 18 October 2026**.
 
-یونیورسٹی آف انجینئرنگ اینڈ ٹیکنالوجی (UET) لاہور، نارووال کیمپس میں منعقد ہونے والے **Qiskit Fall Fest 2026** کے آفیشل ریپوزٹری میں خوش آمدید۔ یہ ایونٹ **2 سے 18 اکتوبر 2026** تک جاری رہے گا۔
+یونیورسٹی آف انجینئرنگ اینڈ ٹیکنالوجی (UET) لاہور، نارووال کیمپس میں منعقد ہونے والے **Qiskit Fall Fest 2026** کے آفیشل ریپوزٹری میں خوش آمدید!
+
+یہ ایونٹ **2 سے 18 اکتوبر 2026** تک جاری رہے گا۔
 
 ---
 
@@ -41,6 +44,25 @@ The Qiskit Fall Fest 2026 brings together students, researchers, and quantum ent
 
 ---
 
+## 📂 Repository Directory Structure / ریپوزٹری کی ساخت
+
+> **Note:** Individual session folders and practical labs will be made public progressively once each corresponding lecture or lab session has been conducted.
+> 
+> **نوٹ:** جیسے ہی ہر لیکچر یا لیب سیشن مکمل ہوگا، متعلقہ سیشنز اور لیبز کے فولڈرز پبلک کر دیے جائیں گے۔
+
+```text
+QFF-2026-Narowal-Campus/
+├── README.md
+├── Day 1/     # Available (Oct 2)      - foundations
+├── Day 2/     # Unlocking post-lecture - measurement-patterns
+├── Day 3/     # Unlocking post-lecture - multi-qubit-entanglement
+├── Day 4/     # Unlocking post-lecture - optimization-transpilation
+├── Day 5/     # Unlocking post-lecture - noise-hardware
+├── Day 6/     # Unlocking post-lecture - dynamic-parameterized
+├── labs/      # Unlocking post-session (Oct 15)
+└── hackathon/ # Unlocking post-session (Oct 18)
+
+```
 ## 🔗 Useful Links & Resources / مفید لنکس اور وسائل
 
 * [IBM Quantum Learning Courses](https://quantum.cloud.ibm.com/learning/en/courses)
