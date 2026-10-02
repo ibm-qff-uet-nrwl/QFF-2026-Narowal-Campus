@@ -53,14 +53,14 @@ The Qiskit Fall Fest 2026 brings together students, researchers, and quantum ent
 ```text
 QFF-2026-Narowal-Campus/
 ├── README.md
-├── Day 1/     # Available (Oct 2)      - foundations
+├── Day 1/     # Unlocking post-lecture - foundations
 ├── Day 2/     # Unlocking post-lecture - measurement-patterns
 ├── Day 3/     # Unlocking post-lecture - multi-qubit-entanglement
 ├── Day 4/     # Unlocking post-lecture - optimization-transpilation
 ├── Day 5/     # Unlocking post-lecture - noise-hardware
 ├── Day 6/     # Unlocking post-lecture - dynamic-parameterized
-├── labs/      # Unlocking post-session (Oct 15)
-└── hackathon/ # Unlocking post-session (Oct 18)
+├── labs/      # Unlocking (15th October 2026)
+└── hackathon/ # Unlocking (18th October 2026)
 
 ```
 ## 🔗 Useful Links & Resources / مفید لنکس اور وسائل
