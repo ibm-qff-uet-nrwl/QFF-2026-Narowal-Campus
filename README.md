@@ -1,4 +1,4 @@
-# IBM Qiskit Fall Fest 2026 — 
+# IBM Qiskit Fall Fest 2026  
 ***University of Engineering and Technology (UET), Narowal Campus***
 
 Welcome to the official repository for the **Qiskit Fall Fest 2026**. 
