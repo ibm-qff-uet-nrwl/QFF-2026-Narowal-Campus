@@ -42,9 +42,9 @@ DAY 1/
 > ***LAB_1.ipynb*** 
 
 # 📚 Topics Covered / احاطہ کیے گئے موضوعات
-* Introduction to Quantum Computing[cite: 36]
-* Python environment setup for Qiskit 2.x[cite: 36]
-* Vectors, matrices, and inner products[cite: 36]
-* Qiskit Statevector and Operator mechanics[cite: 36]
-* Single-qubit gates including X, H, Z, Y, S, and T[cite: 36]
-* Mechanics of quantum superposition[cite: 36]
+* Introduction to Quantum Computing 
+* Python environment setup for Qiskit 2.x 
+* Vectors, matrices, and inner products 
+* Qiskit Statevector and Operator mechanics 
+* Single-qubit gates including X, H, Z, Y, S, and T 
+* Mechanics of quantum superposition 
