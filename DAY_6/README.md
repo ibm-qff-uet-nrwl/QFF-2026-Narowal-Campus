@@ -1,6 +1,6 @@
 # Welcome to Day 6!
 
-**Dynamic Circuits:**
+# Dynamic Circuits:
 
 دن 6 میں خوش آمدید!
 ڈائنامک سرکٹس:
