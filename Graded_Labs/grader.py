@@ -2,11 +2,7 @@ import numpy as np
 from qiskit.quantum_info import Statevector
 
 
-# ============================================================
-# لیب 0: سیٹ اپ چیک (Setup Check)
-# ============================================================
 def grade_lab0_setup(circuit):
-    """Checks if the environment is working."""
     try:
         circuit = circuit.remove_final_measurements(inplace=False)
         if circuit.num_qubits != 1:
@@ -16,11 +12,7 @@ def grade_lab0_setup(circuit):
         return {"score": 0, "max": 10, "msg": f"❌ Error: {e}"}
 
 
-# ============================================================
-# لیب 1: ایک کیوبٹ (|+>)
-# ============================================================
 def grade_lab1_single_qubit(circuit):
-    """Checks if a single qubit is in the |+> superposition state."""
     try:
         circuit = circuit.remove_final_measurements(inplace=False)
         if circuit.num_qubits != 1:
@@ -34,23 +26,16 @@ def grade_lab1_single_qubit(circuit):
         return {"score": 0, "max": 10, "msg": f"❌ Error: {e}"}
 
 
-# ============================================================
-# لیب 2: ملٹی کیوبٹ CNOT
-# ============================================================
 def grade_lab2_multiqubit_cnot(circuit):
-    """Checks if H and CNOT gates are applied correctly."""
     try:
         circuit = circuit.remove_final_measurements(inplace=False)
         if circuit.num_qubits != 2:
             return {"score": 0, "max": 10, "msg": "❌ Need exactly 2 qubits."}
-        
         ops = circuit.count_ops()
-        
         if 'h' not in ops:
             return {"score": 3, "max": 10, "msg": "⚠️ Hadamard gate is missing."}
         if 'cx' not in ops and 'cnot' not in ops:
             return {"score": 3, "max": 10, "msg": "⚠️ CNOT gate is missing."}
-        
         sv = Statevector.from_instruction(circuit)
         expected = Statevector([1/np.sqrt(2), 0, 0, 1/np.sqrt(2)])
         if np.abs(sv.inner(expected))**2 > 0.99:
@@ -60,11 +45,7 @@ def grade_lab2_multiqubit_cnot(circuit):
         return {"score": 0, "max": 10, "msg": f"❌ Error: {e}"}
 
 
-# ============================================================
-# لیب 3: بیل اسٹیٹ (Bell State)
-# ============================================================
 def grade_lab3_bell_state(circuit):
-    """Checks if two qubits are correctly entangled in a Bell State."""
     try:
         circuit = circuit.remove_final_measurements(inplace=False)
         if circuit.num_qubits != 2:
@@ -78,11 +59,7 @@ def grade_lab3_bell_state(circuit):
         return {"score": 0, "max": 10, "msg": f"❌ Error: {e}"}
 
 
-# ============================================================
-# لیب 4: GHZ اسٹیٹ
-# ============================================================
 def grade_lab4_ghz_state(circuit):
-    """Checks if three qubits are correctly entangled in a GHZ State."""
     try:
         circuit = circuit.remove_final_measurements(inplace=False)
         if circuit.num_qubits != 3:
