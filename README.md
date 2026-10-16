@@ -38,8 +38,8 @@ The Qiskit Fall Fest 2026 brings together students, researchers, and quantum ent
 * **Day 4 (9 Oct 2026):** Circuit Optimization & Transpilation (Dustin Rippe)
 * **Day 5 (10 Oct 2026):** Noise, Backends & Real Hardware (Dustin Rippe; Muhammad Khizar)
 * **Day 6 (11 Oct 2026):** Dynamic Circuits & Parameterized Circuits (Dr. Fatima Bint e Munir; Fatima Shahzadi)
-* **Lab 1 (15 Oct 2026):** Practical lab session led by Instructor Noor Ul Ain Faisal
-* **Lab 2 (16 Oct 2026):** Practical lab session led by Instructor Noor Ul Ain Faisal
+* **Lab 1 (15 Oct 2026):** Practical lab Grader - by Instructor Noor Ul Ain Faisal
+* **Lab 2 (16 Oct 2026):** Practical lab Grader - by Instructor Noor Ul Ain Faisal
 * **Hackathon (18 Oct 2026):** Final hackathon and project presentations guided by all guest speakers
 
 ---
