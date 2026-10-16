@@ -2,7 +2,6 @@ import numpy as np
 from qiskit.quantum_info import Statevector
 
 
-# لیب 0: سیٹ اپ چیک
 def grade_lab0_setup(circuit):
     try:
         circuit = circuit.remove_final_measurements(inplace=False)
@@ -13,7 +12,6 @@ def grade_lab0_setup(circuit):
         return {"score": 0, "max": 10, "msg": f"❌ Error: {e}"}
 
 
-# لیب 1: ایک کیوبٹ (|+>)
 def grade_lab1_single_qubit(circuit):
     try:
         circuit = circuit.remove_final_measurements(inplace=False)
@@ -28,7 +26,6 @@ def grade_lab1_single_qubit(circuit):
         return {"score": 0, "max": 10, "msg": f"❌ Error: {e}"}
 
 
-# لیب 2: ملٹی کیوبٹ CNOT
 def grade_lab2_multiqubit_cnot(circuit):
     try:
         circuit = circuit.remove_final_measurements(inplace=False)
@@ -48,7 +45,6 @@ def grade_lab2_multiqubit_cnot(circuit):
         return {"score": 0, "max": 10, "msg": f"❌ Error: {e}"}
 
 
-# لیب 3: بیل اسٹیٹ
 def grade_lab3_bell_state(circuit):
     try:
         circuit = circuit.remove_final_measurements(inplace=False)
@@ -63,7 +59,6 @@ def grade_lab3_bell_state(circuit):
         return {"score": 0, "max": 10, "msg": f"❌ Error: {e}"}
 
 
-# لیب 4: GHZ اسٹیٹ
 def grade_lab4_ghz_state(circuit):
     try:
         circuit = circuit.remove_final_measurements(inplace=False)
