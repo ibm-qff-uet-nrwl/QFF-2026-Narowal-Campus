@@ -97,8 +97,12 @@ How to create a **GHZ State** — a three-qubit entangled state.
 - If you get a low score, read the feedback message — it tells you what is missing.
 - If you are stuck, the solution is usually in the comments (just uncomment the line).
 
-**Happy Quantum Computing!** ⚛️
+Dear students when you complete your graded labs. Please submit the link of google colab notebook here:
 
+https://docs.google.com/forms/d/e/1FAIpQLSeYYViEyq6j1eOEJwbSYIbXnVUSXjVWHr7oNxxm5IZ8emkvPg/viewform?usp=header
+
+**Happy Quantum Computing!** ⚛️
+https://docs.google.com/forms/d/e/1FAIpQLSeYYViEyq6j1eOEJwbSYIbXnVUSXjVWHr7oNxxm5IZ8emkvPg/viewform?usp=header
 ---
 ---
 
